@@ -6,8 +6,8 @@ services:
     user: root
     ports:
       - "8888:8888"
-    volumes:
-      - "./:/home/jovyan/work" # ← notebookをホストと共有したいためディレクトリをマウント
+    #volumes:
+      #- "./:/home/jovyan/work" # ← notebookをホストと共有したいためディレクトリをマウント
     environment:
       NB_UID: 500 # ← 作業するユーザーのUID 私の環境では500だったので500を指定
       GRANT_SUDO: "yes"
