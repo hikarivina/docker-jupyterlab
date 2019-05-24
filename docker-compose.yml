@@ -11,4 +11,4 @@ services:
     environment:
       NB_UID: 500
       GRANT_SUDO: "yes"
-    command: start.sh jupyter lab --notebook-dir=/home/jovyan
+    command: start.sh jupyter lab --notebook-dir=/home/jovyan/work
